@@ -87,13 +87,3 @@ variable "region" {
     default = "us-east-1"
     description = "the region to provision resources in"
 }
-
-variable "access_key" {
-    default = "AKIA5FQX4UVK"
-    description = "access_key for our region "
-}
-
-variable "secret_key" {
-    default = "B9ZD9e8C/gb9XoIZCT"
-    description = "secret_key for our region "
-}
